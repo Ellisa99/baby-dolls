@@ -1,0 +1,224 @@
+html{
+min-height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  
+    background-image: linear-gradient(#fff5ea, #f1d4d4);
+}
+.header-container{
+    width: 100%;
+}
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+   max-width: 1024px;
+   margin: 0 auto;
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+.logo h1 a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    box-sizing: border-box;
+}
+.catalog{
+   
+    margin-top: 100px;
+    text-align: center;
+}
+.cataloghead h1 span:hover{
+    color: #ffa62b;
+}
+.footer-container{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.12);
+    
+}
+footer {
+    
+    margin: 0 auto;
+    max-width: 1042px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+ .logoimg{
+    width: 55px;
+    height: 55px;
+}
+
+.logo h1{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    padding-left: 5px;
+    font-family: 'Vampiro One', cursive;
+    font-size: 1.225rem;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 520;
+    margin-right: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem;
+}
+nav a:hover{
+    color: #c56183;
+}
+.target {
+    color: #c56183;
+}
+.mainphoto{
+    width: 500px;
+    height: 600px;
+}
+.discription{
+    padding-top: 100px;
+    margin-left: 20px;
+}
+.discription h1{
+    padding-bottom: 100px;
+    font-size: 4rem;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.22);
+    
+}
+.discription p{
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    
+}
+.contactus {
+    color: #c56183 ;
+}
+.cataloghead{
+    padding-bottom: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+.catalogexmp{
+    display: flex;
+    flex-wrap: wrap;
+}
+.exmp{
+    width: 220px;
+    height: 250px;
+    padding-top:30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+.ex1:hover{
+    color: goldenrod;
+}
+.catalogdesc{
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 60px;
+    padding-top: 40px;
+}
+
+
+@media(max-width: 768px) {
+    .header-container{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .logo h1{
+        display: none;
+    }
+    nav a{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .discription{
+        text-align: center;
+        justify-content: center;
+        height: 60%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .cataloghead{
+        text-align: center;
+    }
+    .catalog{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .catalogexmp{
+        display: flex;
+            justify-content: center;
+            text-align: center;
+    }
+    .catalogdesc{
+        padding-left: 30px;
+        padding-left: 30px;
+    }
+}
+@media(max-width: 550px) {
+    .catalog{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .ex1{
+        width: 100%;
+    }
+    
+    
+}

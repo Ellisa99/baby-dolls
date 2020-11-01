@@ -1,0 +1,244 @@
+html{
+    min-height: 100%;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    body{
+      
+        background-image: linear-gradient(#f1d4d4,#fff5ea);
+    }
+    .container{
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header-container{
+        width: 100%;
+
+    }
+    header{
+        max-width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+    }
+    
+    
+    .logo h1 a{
+        text-decoration: none;
+        color: black;
+    }
+    main{
+        
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .footer-container{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+    footer {
+        max-width: 1024px;
+        margin: 0 auto;
+        
+    }
+    footer p{
+        text-align: center;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+     .logoimg{
+        width: 55px;
+        height: 55px;
+    }
+    
+    .logo h1{
+        display: inline-block;
+        position: relative;
+        bottom: 20px;
+        padding-left: 5px;
+        font-family: 'Vampiro One', cursive;
+        font-size: 1.225rem;
+        
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        font-weight: 520;
+        margin-right: 20px;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.3rem;
+    }
+    nav a:hover{
+        color: #c56183;
+    }
+    .target {
+        color: #c56183;
+    }
+    
+    .vitriny{
+        width: 440px;
+        height: 300px;
+        margin-top: 90px;
+        border-radius: 30px;
+        margin-right: 20px;
+        box-shadow: 10px 10px 15px gray;
+    }
+    .discabout{
+        margin-left: 55px;
+        padding-top: 90px;
+        
+    }
+    .discabout h1{
+        padding-bottom: 30px;
+        font-size: 4rem;
+        font-family: 'Dancing Script', cursive;
+        text-shadow: 3px 3px rgba(0, 0, 0, 0.22);
+    }
+    .discabout p{
+        font-family: 'Cormorant Garamond', serif;
+        line-height: 1.5rem;
+        font-size: 1.1rem;
+        
+    }
+    .testimonials{
+        min-height: 500px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .feed1 {
+        width: 30%;
+        padding: 30px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        margin-bottom: 20px;
+        margin-right: 30px;
+    } 
+    .feed1:hover{
+        border: 1px solid goldenrod;
+    }
+    
+    .feedbackheader{
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.8rem;
+    }
+    .feed{
+        display: flex;
+        flex-wrap: wrap;
+       margin-top: 40px;
+        
+    }
+    .mybutton{
+        width: 20%;
+        height: 10%;
+        padding: 12px 60px;
+        border: 1px solid goldenrod;
+        margin-right: 30px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        margin-top: 60px;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: rgba(243, 230, 227, 0.5);
+        font-family: 'Dancing Script', cursive;
+        
+    
+    }
+    .mybutton a{
+        text-decoration: none;
+        color:black;
+        
+    }
+    .mybutton:hover{
+        background-color: #f7dad9;
+        border: 1px solid goldenrod;
+    }
+    .author{
+        font-family: 'Dancing Script', cursive;
+    }
+
+    @media(max-width: 768px) {
+        .header-container{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        header{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+        }
+        
+        .logo h1{
+            display: none;
+        }
+        nav a{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            padding-top: 20px;
+        }
+        .container{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .vitryimg{
+            display: none;
+        }
+
+        .discabout{
+            text-align: center;
+            justify-content: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .feed{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .mybutton{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .testimonials{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+       
+        
+    }
+
+    @media(max-width: 550px) {
+        
+        .feed1{
+            width: 100%;
+            margin-left: 30px;
+        }
+        
+        
+        
+        
+    }

@@ -1,0 +1,199 @@
+html{
+    min-height: 100%;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+      
+        background-image: linear-gradient(#f1d4d4,#fff5ea);
+    }
+    .container{
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-container{
+        width: 100%;
+    }
+    header{
+        max-width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+    }
+    
+    
+    .logo h1 a{
+        text-decoration: none;
+        color: black;
+    }
+    .footer-container{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+    
+    footer {
+        max-width: 1024px;
+        margin: 0 auto;
+        
+    }
+    footer p{
+        text-align: center;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+     .logoimg{
+        width: 55px;
+        height: 55px;
+    }
+    
+    .logo h1{
+        display: inline-block;
+        position: relative;
+        bottom: 20px;
+        padding-left: 5px;
+        font-family: 'Vampiro One', cursive;
+        font-size: 1.225rem;
+        
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        font-weight: 520;
+        margin-right: 20px;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.3rem;
+    }
+    nav a:hover{
+        color: #c56183;
+    }
+    .target {
+        color: #c56183;
+    }
+    .mybutton{
+        width: 10%;
+        height: 10%;
+        padding: 7px;
+        border: 1px solid #ffd5cd;;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: #fcf1f1;
+        color: #c56183;
+    }
+    .mybutton:hover{
+        background-color: #f7dad9;
+        border: 1px solid goldenrod;
+    }
+
+    main{
+        margin-top: 55px;
+    }
+    main h1{
+        text-align: center;
+        font-size: 3rem;
+        color: black;
+        font-family: 'Dancing Script', cursive;
+    }
+    main h2{
+        text-align: center;
+        font-size: 2rem;
+        color: black;
+        font-family: 'Dancing Script', cursive;
+    }
+    form {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .inputwrapper{
+        margin-bottom: 20px;
+    }
+input[type=text], input[type=phone], input[type=email], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    border-color: goldenrod;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+
+.inputwrapper .newline{
+    margin-bottom: 10px;
+    display: block;
+}
+.inputwrapper p{
+    margin-bottom: 10px;
+    
+}
+input[type=radio]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input::-webkit-input-placeholder { color: rgba(0, 0, 0, 0.5); }
+.margin{
+    margin-left: 10px;
+}
+label, p{
+    color: black;
+}
+
+@media(max-width: 768px) {
+    .header-container{
+        text-align: center;
+        justify-content: center;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .logo h1{
+        display: none;
+    }
+    
+    nav a{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    form{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    main h1{
+        display: none;
+    }
+    main h2{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    input[type=submit]{
+        margin-right: 0;
+        width: 30%;
+    }
+}
